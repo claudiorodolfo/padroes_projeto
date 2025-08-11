@@ -1,2 +1,61 @@
-# Para arquivos compilados
-*.class
+# Dependências
+node_modules/
+
+# Build/compilação
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Arquivos de ambiente
+.env
+.env.*.local
+!.env.example
+
+# Cache e artefatos de bundlers
+.cache/
+.parcel-cache/
+dist-ssr/
+.next/
+.nuxt/
+.svelte-kit/
+*.vitepress/
+.rpt2_cache/
+.rts2_cache*
+
+# Cobertura de testes
+coverage/
+*.lcov
+.nyc_output/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Outras pastas com dados de runtime
+pids/
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+
+# Caches
+.npm/
+.eslintcache
+.stylelintcache
+
+# Sistema operacional
+.DS_Store
+
+# Outras configurações opcionais ou frameworks
+.webpack/
