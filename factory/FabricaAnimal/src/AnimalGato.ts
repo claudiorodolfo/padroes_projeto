@@ -1,12 +1,12 @@
 import { Animal } from './Animal';
 
 export class AnimalGato extends Animal {
-    constructor(nome: string) {
+    public constructor(nome: string) {
       super(nome);
-      console.log(`Sou o gato ${this.nome}`);
+      console.log(`Sou o gato ${this.getNome()}`);
     }
   
-    falar(): void {
+    public falar(): void {
       console.log("miaaau!");
     }
 }
