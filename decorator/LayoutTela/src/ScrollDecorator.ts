@@ -3,16 +3,16 @@ import { Decorator } from './Decorator';
 
 export class ScrollDecorator extends Decorator {
 
-    constructor(decorates: VisualComponent){
+    public constructor(decorates: VisualComponent){
         super(decorates);
     }
 
-    draw(): void {
+    public draw(): void {
         super.draw();
         this.scrollTo();
     }
 
-    scrollTo(): void {
+    public scrollTo(): void {
         console.log("Executou o Scroll");
     }
 }

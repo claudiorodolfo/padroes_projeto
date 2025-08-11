@@ -3,16 +3,16 @@ import { Decorator } from './Decorator';
 
 export class BorderDecorator extends Decorator {
 
-    constructor(decorates: VisualComponent){
+    public constructor(decorates: VisualComponent){
         super(decorates);
     }
 
-    draw(): void {
+    public draw(): void {
         super.draw();
         this.drawBorder();
     }
 
-    drawBorder(): void {
+    public drawBorder(): void {
         console.log("Desenhou a Borda");
     }
 }

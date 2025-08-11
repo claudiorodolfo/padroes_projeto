@@ -2,14 +2,14 @@ import { VisualComponent } from './VisualComponent';
 
 export abstract class Decorator extends VisualComponent {
 
-    component: VisualComponent;
+    private component: VisualComponent;
 
-    constructor(decorates: VisualComponent) {
+    public constructor(decorates: VisualComponent) {
         super();
         this.component = decorates;
     }
 
-    draw(): void {
+    public draw(): void {
         this.component.draw();
     }
 }

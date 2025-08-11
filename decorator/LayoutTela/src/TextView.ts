@@ -1,7 +1,7 @@
 import { VisualComponent } from './VisualComponent';
 
 export class TextView extends VisualComponent {
-    draw(): void {
+    public draw(): void {
         console.log("Desenhou TextView");
     }
 }
