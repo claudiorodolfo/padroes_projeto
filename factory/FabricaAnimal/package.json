@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@types/node": "^24.2.1",
+    "tsx": "^4.20.3",
     "typescript": "^5.9.2"
   },
   "name": "fabrica_animal",
@@ -10,7 +11,7 @@
     "undici-types": "^7.10.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/index.ts"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,23 @@
+//verifica se o node e npm estão instalados
+node -v
+npm -v
+
+//criar o package.json
+npm init -y
+
+//instalar o typescript e o types/node que é a integraçação do typescript com o node
+npm install typescript @types/node -D
+
+
+
+//criar o arquivo tsconfig.json
+npx tsc --init
+
+//versão do typescript
+tcs -v
+
+//Evitar ter que ficar convertendo o codigo de TS para JS
+npm install tsx -D
+
+//para rodar
+npm run dev
