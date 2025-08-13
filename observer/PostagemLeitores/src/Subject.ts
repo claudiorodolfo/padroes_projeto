@@ -1,7 +1,7 @@
 import { Observer } from './Observer';
 
 export abstract class Subject {
-    attach(observer: Observer): void {}
-    detach(observer: Observer): void {}
+    addObserver(observer: Observer): void {}
+    removeObserver(observer: Observer): void {}
     notifyObservers(): void {}
   }

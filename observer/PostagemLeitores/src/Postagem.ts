@@ -4,11 +4,11 @@ import { Observer } from './Observer';
 export class Postagem extends Subject {
     private observers: Observer[] = [];
   
-    public attach(observer: Observer): void {
+    public addObserver(observer: Observer): void {
       this.observers.push(observer);
     }
   
-    public detach(observer: Observer): void {
+    public removeObserver(observer: Observer): void {
       this.observers = this.observers.filter(obs => obs !== observer);
     }
   
