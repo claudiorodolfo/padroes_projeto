@@ -19,5 +19,8 @@ tcs -v
 //Evitar ter que ficar convertendo o codigo de TS para JS
 npm install tsx -D
 
+//adiciona um script "dev" no package.json
+    "dev": "tsx watch src/index.ts"
+    
 //para rodar
 npm run dev
